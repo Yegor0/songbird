@@ -1,0 +1,71 @@
+.victory-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    margin-top: 20px;
+    background: #b8c8e6;
+    border-radius: 8px;
+}
+
+.victory-wrapper__text {
+    font-size: 2em;
+}
+
+.victory-wrapper__congr {
+    font-size: 4em;
+}
+
+.victory-wrapper__restart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    border-radius: 8px;
+    background: #426199;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 660px) {
+    .victory-wrapper__text {
+        font-size: 1.5em;
+    }
+    
+    .victory-wrapper__congr {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .victory-wrapper__text {
+        font-size: 1em;
+    }
+    
+    .victory-wrapper__congr {
+        font-size: 2em;
+    }
+}
+
+.absolute-victory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40vh;
+}
+
+.absolute-victory__text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 730px) {
+    .absolute-victory__text {
+        font-size: 1.5em;
+    }
+}

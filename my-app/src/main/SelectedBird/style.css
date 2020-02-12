@@ -1,0 +1,88 @@
+.selected-bird {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 510px;
+    background: #b8c8e6;
+    border-radius: 8px;
+}
+
+.selected-bird__title {
+    display: flex;
+}
+
+.selected-bird__title__ul {
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.selected-bird__title__ul li {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: 500;
+    border-bottom: 1px solid #4f5052;
+    padding-bottom: 8px;
+}
+
+.selected-bird__description {
+    margin: 0px 15px;
+}
+
+.default-text {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1060px) {
+    .selected-bird {
+        width: 459px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .selected-bird {
+        width: 408px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .selected-bird {
+        width: 357px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .selected-bird {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .selected-bird__title {
+        margin: 20px 0px;
+    }
+
+    .selected-bird__description {
+        margin: 20px 10px;
+    }
+
+    .default-text {
+        padding: 10px 0px;
+    }
+}
+
+
+@media screen and (max-width: 490px) {
+    .default-text {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .default-text {
+        font-size: 0.9em;
+    }
+}
+

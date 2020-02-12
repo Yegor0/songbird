@@ -1,0 +1,22 @@
+.content-wrapper {
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+
+}
+
+.quiz-wrapper {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+body {
+    background: #222;
+}
+
+@media screen and (max-width: 760px) {
+    .quiz-wrapper {
+        flex-direction: column;
+    }
+}

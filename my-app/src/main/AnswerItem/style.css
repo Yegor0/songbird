@@ -1,0 +1,35 @@
+.answer-item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #4f5052;
+}
+
+.answer-item:first-child {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.answer-item:last-child {
+    border-radius: 0px 0px 8px 8px;
+}
+
+.answer-item:hover {
+    background: #426199;
+}
+
+.answer-item__circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    margin: 0 15px;
+    background: #4f5052;
+}
+
+.wrong {
+    background: #a62019;
+}
+
+.right {
+    background: #14c756;
+}

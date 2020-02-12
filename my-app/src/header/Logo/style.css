@@ -1,0 +1,26 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.logo h1 {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.logo div {
+    font-size: 2em;
+}
+
+.bird-word {
+    color: #558aed;
+}
+
+@media screen and (max-width: 420px) {
+    .logo h1 {
+        font-size: 1.9em;
+    }
+}

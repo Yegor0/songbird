@@ -1,0 +1,30 @@
+.answer-options {
+    max-height: 312px;
+    width: 470px;
+    background: #b8c8e6;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1060px) {
+    .answer-options {
+        width: 423px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .answer-options {
+        width: 376px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .answer-options {
+        width: 329px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .answer-options {
+        width: 100%;
+    }
+}
