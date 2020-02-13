@@ -1,0 +1,13 @@
+.level-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background: #3887d6;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 590px) {
+  .level-list {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,13 @@
+.bird-img {
+    height: 155px;
+    width: 200px;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.small-img {
+    width: 160px;
+    height: 124px;
+    margin: 0px;
+    margin-left: 15px;
+}

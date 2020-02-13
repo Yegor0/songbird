@@ -1,0 +1,24 @@
+.level-list_item {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    padding: 5px 5px;
+}
+
+.active-level {
+    background: #28598a;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 590px) {
+    .level-list_item {
+      width: 125px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .level-list_item {
+        width: 100px;
+    }
+}
